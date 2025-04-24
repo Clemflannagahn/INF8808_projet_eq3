@@ -31,7 +31,7 @@ longevite.register_callbacks(app)
 # navigation bar avec des liens pour se déplacer rapidement entre les sections
 navbar = html.Div(
     [
-        html.Img(src="/assets/spotify_icon.svg", style={'height': '40px', 'marginRight': '10px'}),
+        html.Img(src="/assets/icons/spotify_icon.svg", style={'height': '40px', 'marginRight': '10px'}),
         html.A(
             [html.I(className="fa-brands fa-spotify", style={'marginRight': '8px'}), "Définitions"],
             href="#def-section"
